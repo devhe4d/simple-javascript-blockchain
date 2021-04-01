@@ -1,4 +1,4 @@
-const Block = require('../block');
+const Block = require('./block');
 const { GENESIS_DATA } = require('../config');
 const cryptoHash = require('../utils/crypto-hash');
 
