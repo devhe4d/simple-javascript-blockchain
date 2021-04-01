@@ -1,4 +1,5 @@
 const crypto = require('crypto');
+
 function cryptoHash(...args) {
   const hash = crypto.createHash('sha256');
 
