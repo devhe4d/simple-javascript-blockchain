@@ -24,6 +24,8 @@ app.post('/api/mine', (req, res) => {
   pubsub.broadcastChain();
 
   res.redirect('/api/blocks');
+
+  console.log('some new test on github code editor')
 });
 
 function syncChains() {
